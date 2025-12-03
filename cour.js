@@ -6,7 +6,7 @@ function addButton(input){
 } 
 function delet(input){
     display.value = display.value.slice(0,-1)
-    display.value = display.value.slice(0,-1)
+    
     
 
 }
@@ -18,3 +18,4 @@ function solve(input){
 function cleanall(input){
     display.value =" "
 }
+
