@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule</title>
+    <link rel="stylesheet" href="cour.css">
+    <script src="cour.js" defer></script>
+</head>
+<body>
+   
+    <div class="calculate">
+        <h1>Calculate</h1>
+        
+        <input  id="display" readonly>
+        <button id="clean" onclick="cleanall('C')">C</button>
+        
+        <div id="buttons">
+
+    <button onclick="addButton('7')">7</button>
+    <button onclick="addButton('8')">8</button>
+    <button onclick="addButton('9')">9</button>
+    <button onclick="addButton('/')">/</button>
+    
+    <br>
+
+    
+    <button onclick="addButton('4')">4</button>
+    <button onclick="addButton('5')">5</button>
+    <button onclick="addButton('6')">6</button>
+    <button onclick="addButton('*')">*</button>
+    <br>
+
+   
+    <button onclick="addButton('1')">1</button>
+    <button onclick="addButton('2')">2</button>
+    <button onclick="addButton('3')">3</button>
+    <button onclick="addButton('-')">-</button>
+    <br>
+
+    
+    <button onclick="addButton('0')">0</button>
+    <button onclick="addButton('.')">.</button>
+    <button onclick="addButton('+')">+</button>
+    <button onclick="solve('=')">=</button>
+    <br>
+
+     <button onclick="addButton('( ')">(</button>
+     <button onclick="addButton(')')">)</button>
+     <button onclick="addButton('%')">%</button>
+    <button id="delet" onclick="delet('del')">del</button>
+</div>
+
+    </div>
+</body>
+</html>
